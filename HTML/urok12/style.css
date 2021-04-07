@@ -1,0 +1,114 @@
+header{
+    margin: 10px 170px;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    padding:  10px;
+}
+#top_header{
+    border-bottom: 1px solid #a7a5a5;
+}
+ul>li{
+    list-style: none;    
+}
+li>a{
+  text-decoration: none;  
+  color: #828282;
+  font-size: 18px;
+}
+#child1{
+    color: black;
+}
+#title{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    padding: 40px 0;
+}
+#title :nth-child(1){
+    font-size: 47.3392px;
+    color: #070707;
+}
+#title :nth-child(2){
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+#title :nth-child(3){
+font-size: 16px;
+line-height: 20px;
+color: #828282;
+transform: rotate(270deg);
+margin-bottom: 20px;
+}
+#about_me{
+    height: 506px;
+    background: #F6F6F6;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+#about_me h2{
+    font-size: 34px;
+    color: #070707;
+}
+#about_me p{
+    font-size: 18px;
+    line-height: 22px;
+  
+}
+#skills{
+text-align: center;
+font-size: 24px;
+color: #070707;
+margin: 10px 170px;
+}
+#skills>h2 , p, #programs{
+    padding: 30px 0px;
+}
+#programs{
+    display: flex;
+    justify-content: space-around;
+}
+#portfolio{
+    font-size: 34px;
+    color: #070707;
+    text-align:  center;
+    background: #F6F6F6;
+}
+.padding{
+    padding: 60px;
+}
+#portfolio>a {
+    padding: 40px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+footer{
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+#contacts{
+    padding: 20px;
+}
+#footer_p{
+    background: #070707;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+#sites{
+    margin: 20px;
+}
+

@@ -1,0 +1,11 @@
+#parent_div .child_div{
+background: #000;
+color: palegoldenrod;
+font-size: large;
+}
+#child_s,
+.child{
+    background: palevioletred;
+    color: rebeccapurple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

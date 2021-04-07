@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body, p {
+    margin: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.brand_img{
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 17px;
+}
+.carousel-width{
+    width: 70%;
+    height: 70%;
+    margin:auto;
+    padding: 10px;
+}
+h5, p{
+    color: #000;
+}
+.gray{
+    line-height: 2.5;
+    text-align: center;
+    width: 40px;
+    background-color:#f4f4f4;
+    border-radius: 20px;
+    display: inline-block;
+    height: 40px;
+}
+.product img{
+width: 200px;
+height: 250px;
+}

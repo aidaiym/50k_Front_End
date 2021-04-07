@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h2> <b> Mini calculator </b></h2>
+
+    <label> Type first value: </label>
+    <input id="firstNumber" type="text"><br>
+    <label> Type second value: </label>
+    <input id="secondNumber" type="text"><br>
+    <label> Type mathematical operations: </label>
+    <input id="operations" type="text">
+    <h1 id="result"></h1>
+    <button id="conclution">=</button>
+
+    <script>
+        conclution.onclick = function () {
+            let firstNumber = document.getElementById("firstNumber").value;
+            let secondNumber = document.getElementById("secondNumber").value;
+            let operations = document.getElementById("operations").value;
+            let h = document.getElementById("result");
+            let conclution = document.getElementById("conclution");
+            if (operations == "*") {
+                h.textContent = +firstNumber * +secondNumber;
+            }
+            else if (operations == "/") {
+
+                h.textContent = +firstNumber / +secondNumber;
+            }
+            else if (operations == "+") {
+                h.textContent = +firstNumber + +secondNumber;
+
+            }
+            else if (operations == "-") {
+                h.textContent = +firstNumber - +secondNumber;;
+
+            }
+
+        }
+    </script>
+</body>
+
+</html>

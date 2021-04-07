@@ -1,0 +1,19 @@
+form {
+    color: rgb(3, 3, 31);
+   
+}
+#firstNumber{
+    margin-left: 95px;
+    margin-bottom: 10px;
+}
+#secondNumber{
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+input {
+    padding-left: 10px;
+    width: 50px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
